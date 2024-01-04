@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
     
-
+#function gets the float number from the user.
 def get_float(prompt, low, high):
     while True:
         number = float(input(prompt))
@@ -13,7 +13,7 @@ def get_float(prompt, low, high):
             
         
 
-    
+#function gets the int from the user   
 def get_int(prompt):
     while True:
         number = int(input(prompt))
@@ -25,6 +25,7 @@ def get_int(prompt):
     
 
 def main():
+    #While loop to see if the user wants to continue.
     choice = "y"
     while choice.lower() == "y":
         number = get_float('Enter a number: ', 0 ,10 )
