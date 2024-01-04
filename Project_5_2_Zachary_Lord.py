@@ -33,6 +33,7 @@ def play_game(limit):
 def main():
     display_title()
     again = "y"
+    #While loop to see if the user wants to play again.
     while again.lower() == "y":
         limit = get_limit()
         play_game(limit)
