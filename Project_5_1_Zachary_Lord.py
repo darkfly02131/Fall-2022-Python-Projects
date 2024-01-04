@@ -8,6 +8,7 @@ def sales_tax(total):
     return sales_tax
 
 def main():
+    #prints the welcome message and calculates the results. As well as displaying the results.
     print("Sales Tax Calculator\n")
     total = float(input("Enter total: "))
     total_aftertax = round(total + sales_tax(total), 2)
